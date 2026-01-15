@@ -33,7 +33,6 @@ export default function Page() {
         <div className="absolute -inset-1 bg-linear-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200"></div>
         
         <div className="relative bg-zinc-900 p-2 rounded-lg border border-zinc-800 shadow-2xl">
-            {/* Pass props to your Canvas component here */}
             <Canvas prompt={prompt} shouldGenerate={triggerGenerate} onGenerateComplete={() => setTriggerGenerate(false)} />
         </div>
       </div>
@@ -51,7 +50,7 @@ export default function Page() {
                     setTriggerGenerate(true);
                 }
               }}
-              placeholder="Describe your sprite (e.g. 'cyberpunk katana')..." 
+              placeholder="Describe your sprite (e.g. 'heart')..." 
               className="bg-transparent border-none text-base md:text-lg h-10 md:h-12 placeholder:text-zinc-600 focus-visible:ring-0 text-white"
             />
           </div>

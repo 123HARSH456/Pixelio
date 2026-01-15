@@ -98,11 +98,6 @@ export default function Canvas({ prompt, shouldGenerate, onGenerateComplete }: C
     }
 
     return (
-        // 1. CONTAINER: 
-        // - 'w-full': Take up available phone screen width
-        // - 'max-w-[512px]': Don't get bigger than 512px on Desktop
-        // - 'aspect-square': Force it to stay a perfect square (prevents stretching)
-        // - 'mx-auto': Center it horizontally
         <div className="relative group w-full max-w-[512px] aspect-square mx-auto">
             
             <canvas 
