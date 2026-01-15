@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pixelio - AI Pixel Art Studio",
     description: "Turn text into retro pixel art in seconds. The ultimate AI sprite engine for creatives.",
-    url: "https://pixelio.vercel.app", 
+    url: "https://pixelioai.vercel.app", 
     siteName: "Pixelio",
     locale: "en_US",
     type: "website",
